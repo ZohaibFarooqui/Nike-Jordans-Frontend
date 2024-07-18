@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: 
+        linear-gradient(to bottom, #434343 20%, #0f0f0f 80%); /* Dark gradient background */
+    background-blend-mode: overlay;
+    height: 100vh;
+}
+button{
+
+}
+
+.btn {
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #CCA24E;
+    color: #090909;
+    border-radius: 15px;
+    height: 60px;
+    width: 280px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.shit {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* gap: 50px;  */
+    width: 50em;
+}
+
+.shoe {
+    position: absolute;
+    max-width: 5000px;
+    height: 551px;
+    margin-top: 0px;
+    
+}
+.circle2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.circle3{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.circle{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 140px;
+    height: 180px;
+    width: 180px;
+    
+
+}
+.imgs{
+    margin-top: 0px;
+    /* margin-left: 500px; */
+    /* margin-top: 100px;
+    max-width: 5000px; */
+    /* height: 551px; */
+    position: relative;
+    /* width: 500px; */
+    /* padding-left: 500px; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 25em;
+    max-height: 5em;
+}
+
+.elements {
+    font-family: 'Franklin Gothic Heavy';
+    font-style: italic;
+    color: #E4E3E5;
+    font-size: 55px;
+    gap: 15px;
+    line-height: 70px;
+    max-width: 25em;
+}
+
+.element2 {
+    font-weight: 450;
+    /* text-align: left; */
+    /* text-indent: -2.75em; */
+}
+
+.elements1 {
+    /* text-indent: -2.35em; */
+    font-weight: 100;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.elements h4 {
+    /* text-indent: -4.2em; */
+}
+
+.elements p {
+    /* text-indent: -4.2em; */
+    color: #F6C970;
+    font-family: 'Franklin Gothic';
+    font-weight: 10;
+}
+
+.elements4 {
+    font-size: 10;
+}
+
+.container {
+    /* padding: 20px; */
+    
+    /* Additional styling for your content */
+}
+
+.side {
+    background-color: #CDCDD1;
+    flex-direction: column;
+    display: flex;
+    max-width: 190px;
+    border-radius: 8px;
+    gap: 80px;
+    align-items: center;
+    height: 100vh;
+    margin-right: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    margin-left: 225px;
+    margin-bottom: 20px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+}
+
+nav ul {
+    display: flex; /* To make it horizontal */
+    gap: 100px;
+    list-style: none; /* To remove dots */
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white; /* Ensuring text color is visible */
+    font-style: normal;
+}
+
+.side-text {
+    writing-mode: vertical-lr;
+    color: #181818;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    font-size: 20px;
+    display: flex;
+    gap: 35px;
+}
+
+.screen {
+    margin-right: 200px;
+    display: flex;  
+
+    /* gap: 80px; */
+    /* width: 10em; */
+    height: 100vh  ;
+    width: 100vw;
+    /* gap: 325px; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+
+.logo {
+    width: 86px;
+}
+
+.lower {
+    font-family: 'Franklin Gothic Heavy';
+    font-style: italic;
+    /* text-indent: -16em; */
+    /* display: inline-block; */
+    max-width: 200px;
+    line-height: 50px;
+
+}
+
+.lower h4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.lower p {
+    font-size: 14px; /* Adjusted font size */
+    text-align: left; /* Align text to the left */
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+    width: 400px;
+    color: #CCA24E;
+    line-height: 1.5; /* Adjusted line height */
+    /* margin-top: 10px; Add margin to create space */
+    margin-left: 0; /* Ensure the text starts at the left */
+    margin-bottom: 20px;
+
+} 
